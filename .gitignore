@@ -1,0 +1,15 @@
+# Folder
+priv
+
+# Hidden folder
+.git
+.idea
+
+# Files
+ebin/test
+rebar3
+*.beam
+*.d
+*.iml
+*.mk
+*.swp
