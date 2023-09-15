@@ -16,7 +16,7 @@ fib(N) ->
   fib(N, 1, 1).
 fib(N, PREV, NEXT) ->
   case N of
-    N when N =< 0 -> 0;
+    N when N < 0 -> 0;
     0 -> NEXT;
     1 -> NEXT;
     _ -> fib(N - 1, NEXT, PREV + NEXT)
